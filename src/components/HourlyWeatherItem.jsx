@@ -9,7 +9,7 @@ const HourlyWeather = ({ hourlyWeather }) => {
   return (
     <li className="weather-item">
         <p className="time">{time}</p>
-        <img src={`public/icons/${weatherIcon}.svg`} alt="clouds svg" className="weather-icon" />
+        <img src={`icons/${weatherIcon}.svg`} alt="clouds svg" className="weather-icon" />
         <p className="temperature">{temperature}</p>
     </li>
   )
